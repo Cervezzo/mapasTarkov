@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c4a000"
+    android:backgroundTint="#342c2f"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/factoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:onClick="factory"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        android:text="Factory"
+        android:minWidth="150dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/customButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:onClick="custom"
+        android:padding="15dp"
+        android:text="Custom"
+        android:textAllCaps="false"
+        android:minWidth="150dp"
+
+        />
+
+    <Button
+        android:id="@+id/woodsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:onClick="woods"
+        android:padding="15dp"
+        android:text="Woods"
+        android:textAllCaps="false"
+        android:minWidth="150dp"
+
+        />
+
+    <Button
+        android:id="@+id/shorelineButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:onClick="shoreline"
+        android:minWidth="150dp"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        android:text="Shoreline"
+
+        />
+
+    <Button
+        android:id="@+id/interchangeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:onClick="interchange"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        android:minWidth="150dp"
+        android:text="Interchange"
+
+        />
+
+
+</LinearLayout>
